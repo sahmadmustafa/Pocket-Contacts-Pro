@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		18539E0D24F5DA5500CCFC48 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18539E0A24F5DA5500CCFC48 /* ProgressHUD.m */; };
 		18539E0E24F5DA5500CCFC48 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18539E0B24F5DA5500CCFC48 /* ProgressHUD.bundle */; };
-		18539E0F24F5DA6600CCFC48 /* SetupFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18539E0724F5DA2300CCFC48 /* SetupFramework.framework */; };
-		18539E1024F5DA6600CCFC48 /* SetupFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18539E0724F5DA2300CCFC48 /* SetupFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		18EA72DB24F599AE00F52B99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA72DA24F599AE00F52B99 /* AppDelegate.swift */; };
 		18EA72DF24F599AE00F52B99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA72DE24F599AE00F52B99 /* ViewController.swift */; };
 		18EA72E224F599AE00F52B99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EA72E024F599AE00F52B99 /* Main.storyboard */; };
@@ -55,7 +53,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				18539E1024F5DA6600CCFC48 /* SetupFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,7 +61,6 @@
 
 /* Begin PBXFileReference section */
 		18539E0524F5DA0D00CCFC48 /* Pocket Contacts Pro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Pocket Contacts Pro.entitlements"; sourceTree = "<group>"; };
-		18539E0724F5DA2300CCFC48 /* SetupFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SetupFramework.framework; sourceTree = "<group>"; };
 		18539E0924F5DA5400CCFC48 /* Pocket Contacts Pro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pocket Contacts Pro-Bridging-Header.h"; sourceTree = "<group>"; };
 		18539E0A24F5DA5500CCFC48 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
 		18539E0B24F5DA5500CCFC48 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
@@ -103,7 +99,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				80D4A109FA887267B8DF9677 /* Pods_Pocket_Contacts_Pro.framework in Frameworks */,
-				18539E0F24F5DA6600CCFC48 /* SetupFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,14 +119,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18539E0624F5DA2300CCFC48 /* For Testing on Simulator */ = {
-			isa = PBXGroup;
-			children = (
-				18539E0724F5DA2300CCFC48 /* SetupFramework.framework */,
-			);
-			path = "For Testing on Simulator";
-			sourceTree = "<group>";
-		};
 		18EA72CE24F599AE00F52B99 = {
 			isa = PBXGroup;
 			children = (
@@ -161,7 +148,6 @@
 				18EA731824F5AA8300F52B99 /* aa.png */,
 				18EA731924F5AA8300F52B99 /* bb.png */,
 				18EA731A24F5AA8300F52B99 /* cc.png */,
-				18539E0624F5DA2300CCFC48 /* For Testing on Simulator */,
 				18EA72DA24F599AE00F52B99 /* AppDelegate.swift */,
 				18EA72DE24F599AE00F52B99 /* ViewController.swift */,
 				18EA731224F59DAB00F52B99 /* OptionsViewController.swift */,
