@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18539E0D24F5DA5500CCFC48 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18539E0A24F5DA5500CCFC48 /* ProgressHUD.m */; };
+		18539E0E24F5DA5500CCFC48 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18539E0B24F5DA5500CCFC48 /* ProgressHUD.bundle */; };
+		18539E0F24F5DA6600CCFC48 /* SetupFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18539E0724F5DA2300CCFC48 /* SetupFramework.framework */; };
+		18539E1024F5DA6600CCFC48 /* SetupFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18539E0724F5DA2300CCFC48 /* SetupFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18EA72DB24F599AE00F52B99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA72DA24F599AE00F52B99 /* AppDelegate.swift */; };
+		18EA72DF24F599AE00F52B99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA72DE24F599AE00F52B99 /* ViewController.swift */; };
+		18EA72E224F599AE00F52B99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EA72E024F599AE00F52B99 /* Main.storyboard */; };
+		18EA72E424F599B200F52B99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EA72E324F599B200F52B99 /* Assets.xcassets */; };
+		18EA72E724F599B200F52B99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EA72E524F599B200F52B99 /* LaunchScreen.storyboard */; };
+		18EA72F224F599B200F52B99 /* Pocket_Contacts_ProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA72F124F599B200F52B99 /* Pocket_Contacts_ProTests.swift */; };
+		18EA72FD24F599B200F52B99 /* Pocket_Contacts_ProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA72FC24F599B200F52B99 /* Pocket_Contacts_ProUITests.swift */; };
+		18EA730D24F59A6400F52B99 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA730A24F59A6300F52B99 /* TableViewController.swift */; };
+		18EA730E24F59A6400F52B99 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA730B24F59A6300F52B99 /* DetailViewController.swift */; };
+		18EA730F24F59A6400F52B99 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA730C24F59A6400F52B99 /* StartViewController.swift */; };
+		18EA731124F59BE100F52B99 /* 1390893.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18EA731024F59BE100F52B99 /* 1390893.jpg */; };
+		18EA731324F59DAB00F52B99 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA731224F59DAB00F52B99 /* OptionsViewController.swift */; };
+		18EA731524F5A5D500F52B99 /* pngtree-beautiful-blue-watercolor-elegant-business-background-image_275758.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18EA731424F5A5D500F52B99 /* pngtree-beautiful-blue-watercolor-elegant-business-background-image_275758.jpg */; };
+		18EA731724F5A73F00F52B99 /* 61zfCj2gY7L._SY355_.png.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18EA731624F5A73F00F52B99 /* 61zfCj2gY7L._SY355_.png.jpeg */; };
+		18EA731B24F5AA8400F52B99 /* aa.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA731824F5AA8300F52B99 /* aa.png */; };
+		18EA731C24F5AA8400F52B99 /* bb.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA731924F5AA8300F52B99 /* bb.png */; };
+		18EA731D24F5AA8400F52B99 /* cc.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA731A24F5AA8300F52B99 /* cc.png */; };
+		80D4A109FA887267B8DF9677 /* Pods_Pocket_Contacts_Pro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCDB2F920476BDC20969162 /* Pods_Pocket_Contacts_Pro.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18EA72EE24F599B200F52B99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18EA72CF24F599AE00F52B99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EA72D624F599AE00F52B99;
+			remoteInfo = "Pocket Contacts Pro";
+		};
+		18EA72F924F599B200F52B99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18EA72CF24F599AE00F52B99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EA72D624F599AE00F52B99;
+			remoteInfo = "Pocket Contacts Pro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18539E1124F5DA6700CCFC48 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				18539E1024F5DA6600CCFC48 /* SetupFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18539E0524F5DA0D00CCFC48 /* Pocket Contacts Pro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Pocket Contacts Pro.entitlements"; sourceTree = "<group>"; };
+		18539E0724F5DA2300CCFC48 /* SetupFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SetupFramework.framework; sourceTree = "<group>"; };
+		18539E0924F5DA5400CCFC48 /* Pocket Contacts Pro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pocket Contacts Pro-Bridging-Header.h"; sourceTree = "<group>"; };
+		18539E0A24F5DA5500CCFC48 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		18539E0B24F5DA5500CCFC48 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		18539E0C24F5DA5500CCFC48 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		18EA72D724F599AE00F52B99 /* Pocket Contacts Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket Contacts Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EA72DA24F599AE00F52B99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18EA72DE24F599AE00F52B99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18EA72E124F599AE00F52B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18EA72E324F599B200F52B99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18EA72E624F599B200F52B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18EA72E824F599B200F52B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EA72ED24F599B200F52B99 /* Pocket Contacts ProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pocket Contacts ProTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EA72F124F599B200F52B99 /* Pocket_Contacts_ProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocket_Contacts_ProTests.swift; sourceTree = "<group>"; };
+		18EA72F324F599B200F52B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EA72F824F599B200F52B99 /* Pocket Contacts ProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pocket Contacts ProUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EA72FC24F599B200F52B99 /* Pocket_Contacts_ProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocket_Contacts_ProUITests.swift; sourceTree = "<group>"; };
+		18EA72FE24F599B200F52B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EA730A24F59A6300F52B99 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		18EA730B24F59A6300F52B99 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		18EA730C24F59A6400F52B99 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		18EA731024F59BE100F52B99 /* 1390893.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1390893.jpg; sourceTree = "<group>"; };
+		18EA731224F59DAB00F52B99 /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		18EA731424F5A5D500F52B99 /* pngtree-beautiful-blue-watercolor-elegant-business-background-image_275758.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pngtree-beautiful-blue-watercolor-elegant-business-background-image_275758.jpg"; sourceTree = "<group>"; };
+		18EA731624F5A73F00F52B99 /* 61zfCj2gY7L._SY355_.png.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 61zfCj2gY7L._SY355_.png.jpeg; sourceTree = "<group>"; };
+		18EA731824F5AA8300F52B99 /* aa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aa.png; sourceTree = "<group>"; };
+		18EA731924F5AA8300F52B99 /* bb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bb.png; sourceTree = "<group>"; };
+		18EA731A24F5AA8300F52B99 /* cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cc.png; sourceTree = "<group>"; };
+		2DEC84F53F78CD6110E6EE5E /* Pods-Pocket Contacts Pro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pocket Contacts Pro.release.xcconfig"; path = "Target Support Files/Pods-Pocket Contacts Pro/Pods-Pocket Contacts Pro.release.xcconfig"; sourceTree = "<group>"; };
+		A502B6834E2573341A25D16C /* Pods-Pocket Contacts Pro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pocket Contacts Pro.debug.xcconfig"; path = "Target Support Files/Pods-Pocket Contacts Pro/Pods-Pocket Contacts Pro.debug.xcconfig"; sourceTree = "<group>"; };
+		ACCDB2F920476BDC20969162 /* Pods_Pocket_Contacts_Pro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pocket_Contacts_Pro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18EA72D424F599AE00F52B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D4A109FA887267B8DF9677 /* Pods_Pocket_Contacts_Pro.framework in Frameworks */,
+				18539E0F24F5DA6600CCFC48 /* SetupFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EA72EA24F599B200F52B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EA72F524F599B200F52B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18539E0624F5DA2300CCFC48 /* For Testing on Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				18539E0724F5DA2300CCFC48 /* SetupFramework.framework */,
+			);
+			path = "For Testing on Simulator";
+			sourceTree = "<group>";
+		};
+		18EA72CE24F599AE00F52B99 = {
+			isa = PBXGroup;
+			children = (
+				18EA72D924F599AE00F52B99 /* Pocket Contacts Pro */,
+				18EA72F024F599B200F52B99 /* Pocket Contacts ProTests */,
+				18EA72FB24F599B200F52B99 /* Pocket Contacts ProUITests */,
+				18EA72D824F599AE00F52B99 /* Products */,
+				9D84C5908FD4F624C52343C6 /* Pods */,
+				9CC1562CE7C71F7387ACF5C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18EA72D824F599AE00F52B99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18EA72D724F599AE00F52B99 /* Pocket Contacts Pro.app */,
+				18EA72ED24F599B200F52B99 /* Pocket Contacts ProTests.xctest */,
+				18EA72F824F599B200F52B99 /* Pocket Contacts ProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18EA72D924F599AE00F52B99 /* Pocket Contacts Pro */ = {
+			isa = PBXGroup;
+			children = (
+				18539E0524F5DA0D00CCFC48 /* Pocket Contacts Pro.entitlements */,
+				18EA731824F5AA8300F52B99 /* aa.png */,
+				18EA731924F5AA8300F52B99 /* bb.png */,
+				18EA731A24F5AA8300F52B99 /* cc.png */,
+				18539E0624F5DA2300CCFC48 /* For Testing on Simulator */,
+				18EA72DA24F599AE00F52B99 /* AppDelegate.swift */,
+				18EA72DE24F599AE00F52B99 /* ViewController.swift */,
+				18EA731224F59DAB00F52B99 /* OptionsViewController.swift */,
+				18EA731624F5A73F00F52B99 /* 61zfCj2gY7L._SY355_.png.jpeg */,
+				18EA72E024F599AE00F52B99 /* Main.storyboard */,
+				18EA72E324F599B200F52B99 /* Assets.xcassets */,
+				18EA72E524F599B200F52B99 /* LaunchScreen.storyboard */,
+				18EA731024F59BE100F52B99 /* 1390893.jpg */,
+				18EA731424F5A5D500F52B99 /* pngtree-beautiful-blue-watercolor-elegant-business-background-image_275758.jpg */,
+				18EA72E824F599B200F52B99 /* Info.plist */,
+				18EA730B24F59A6300F52B99 /* DetailViewController.swift */,
+				18EA730C24F59A6400F52B99 /* StartViewController.swift */,
+				18EA730A24F59A6300F52B99 /* TableViewController.swift */,
+				18539E0B24F5DA5500CCFC48 /* ProgressHUD.bundle */,
+				18539E0C24F5DA5500CCFC48 /* ProgressHUD.h */,
+				18539E0A24F5DA5500CCFC48 /* ProgressHUD.m */,
+				18539E0924F5DA5400CCFC48 /* Pocket Contacts Pro-Bridging-Header.h */,
+			);
+			path = "Pocket Contacts Pro";
+			sourceTree = "<group>";
+		};
+		18EA72F024F599B200F52B99 /* Pocket Contacts ProTests */ = {
+			isa = PBXGroup;
+			children = (
+				18EA72F124F599B200F52B99 /* Pocket_Contacts_ProTests.swift */,
+				18EA72F324F599B200F52B99 /* Info.plist */,
+			);
+			path = "Pocket Contacts ProTests";
+			sourceTree = "<group>";
+		};
+		18EA72FB24F599B200F52B99 /* Pocket Contacts ProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18EA72FC24F599B200F52B99 /* Pocket_Contacts_ProUITests.swift */,
+				18EA72FE24F599B200F52B99 /* Info.plist */,
+			);
+			path = "Pocket Contacts ProUITests";
+			sourceTree = "<group>";
+		};
+		9CC1562CE7C71F7387ACF5C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACCDB2F920476BDC20969162 /* Pods_Pocket_Contacts_Pro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D84C5908FD4F624C52343C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A502B6834E2573341A25D16C /* Pods-Pocket Contacts Pro.debug.xcconfig */,
+				2DEC84F53F78CD6110E6EE5E /* Pods-Pocket Contacts Pro.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18EA72D624F599AE00F52B99 /* Pocket Contacts Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EA730124F599B200F52B99 /* Build configuration list for PBXNativeTarget "Pocket Contacts Pro" */;
+			buildPhases = (
+				C4970CDB6084AE2C9EE838A7 /* [CP] Check Pods Manifest.lock */,
+				18EA72D324F599AE00F52B99 /* Sources */,
+				18EA72D424F599AE00F52B99 /* Frameworks */,
+				18EA72D524F599AE00F52B99 /* Resources */,
+				18539E1124F5DA6700CCFC48 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pocket Contacts Pro";
+			productName = "Pocket Contacts Pro";
+			productReference = 18EA72D724F599AE00F52B99 /* Pocket Contacts Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18EA72EC24F599B200F52B99 /* Pocket Contacts ProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EA730424F599B200F52B99 /* Build configuration list for PBXNativeTarget "Pocket Contacts ProTests" */;
+			buildPhases = (
+				18EA72E924F599B200F52B99 /* Sources */,
+				18EA72EA24F599B200F52B99 /* Frameworks */,
+				18EA72EB24F599B200F52B99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EA72EF24F599B200F52B99 /* PBXTargetDependency */,
+			);
+			name = "Pocket Contacts ProTests";
+			productName = "Pocket Contacts ProTests";
+			productReference = 18EA72ED24F599B200F52B99 /* Pocket Contacts ProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18EA72F724F599B200F52B99 /* Pocket Contacts ProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EA730724F599B200F52B99 /* Build configuration list for PBXNativeTarget "Pocket Contacts ProUITests" */;
+			buildPhases = (
+				18EA72F424F599B200F52B99 /* Sources */,
+				18EA72F524F599B200F52B99 /* Frameworks */,
+				18EA72F624F599B200F52B99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EA72FA24F599B200F52B99 /* PBXTargetDependency */,
+			);
+			name = "Pocket Contacts ProUITests";
+			productName = "Pocket Contacts ProUITests";
+			productReference = 18EA72F824F599B200F52B99 /* Pocket Contacts ProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18EA72CF24F599AE00F52B99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Netsoll;
+				TargetAttributes = {
+					18EA72D624F599AE00F52B99 = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
+					};
+					18EA72EC24F599B200F52B99 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 18EA72D624F599AE00F52B99;
+					};
+					18EA72F724F599B200F52B99 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 18EA72D624F599AE00F52B99;
+					};
+				};
+			};
+			buildConfigurationList = 18EA72D224F599AE00F52B99 /* Build configuration list for PBXProject "Pocket Contacts Pro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18EA72CE24F599AE00F52B99;
+			productRefGroup = 18EA72D824F599AE00F52B99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18EA72D624F599AE00F52B99 /* Pocket Contacts Pro */,
+				18EA72EC24F599B200F52B99 /* Pocket Contacts ProTests */,
+				18EA72F724F599B200F52B99 /* Pocket Contacts ProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18EA72D524F599AE00F52B99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EA731524F5A5D500F52B99 /* pngtree-beautiful-blue-watercolor-elegant-business-background-image_275758.jpg in Resources */,
+				18EA731D24F5AA8400F52B99 /* cc.png in Resources */,
+				18EA72E724F599B200F52B99 /* LaunchScreen.storyboard in Resources */,
+				18EA731B24F5AA8400F52B99 /* aa.png in Resources */,
+				18EA72E424F599B200F52B99 /* Assets.xcassets in Resources */,
+				18EA731724F5A73F00F52B99 /* 61zfCj2gY7L._SY355_.png.jpeg in Resources */,
+				18EA731C24F5AA8400F52B99 /* bb.png in Resources */,
+				18EA72E224F599AE00F52B99 /* Main.storyboard in Resources */,
+				18539E0E24F5DA5500CCFC48 /* ProgressHUD.bundle in Resources */,
+				18EA731124F59BE100F52B99 /* 1390893.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EA72EB24F599B200F52B99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EA72F624F599B200F52B99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C4970CDB6084AE2C9EE838A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pocket Contacts Pro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EA72D324F599AE00F52B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EA730F24F59A6400F52B99 /* StartViewController.swift in Sources */,
+				18EA72DF24F599AE00F52B99 /* ViewController.swift in Sources */,
+				18EA730D24F59A6400F52B99 /* TableViewController.swift in Sources */,
+				18539E0D24F5DA5500CCFC48 /* ProgressHUD.m in Sources */,
+				18EA731324F59DAB00F52B99 /* OptionsViewController.swift in Sources */,
+				18EA72DB24F599AE00F52B99 /* AppDelegate.swift in Sources */,
+				18EA730E24F59A6400F52B99 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EA72E924F599B200F52B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EA72F224F599B200F52B99 /* Pocket_Contacts_ProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EA72F424F599B200F52B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EA72FD24F599B200F52B99 /* Pocket_Contacts_ProUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18EA72EF24F599B200F52B99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18EA72D624F599AE00F52B99 /* Pocket Contacts Pro */;
+			targetProxy = 18EA72EE24F599B200F52B99 /* PBXContainerItemProxy */;
+		};
+		18EA72FA24F599B200F52B99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18EA72D624F599AE00F52B99 /* Pocket Contacts Pro */;
+			targetProxy = 18EA72F924F599B200F52B99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18EA72E024F599AE00F52B99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EA72E124F599AE00F52B99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18EA72E524F599B200F52B99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EA72E624F599B200F52B99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18EA72FF24F599B200F52B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18EA730024F599B200F52B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18EA730224F599B200F52B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A502B6834E2573341A25D16C /* Pods-Pocket Contacts Pro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Pocket Contacts Pro/Pocket Contacts Pro.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pocket\\ Contacts\\ Pro/For\\ Testing\\ on\\ Simulator",
+					"$(PROJECT_DIR)/Pocket\\ Contacts\\ Pro/For\\ Testing\\ on\\ Simulator",
+				);
+				INFOPLIST_FILE = "Pocket Contacts Pro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zuooi.Pocket-Contacts-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pocket Contacts Pro/Pocket Contacts Pro-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		18EA730324F599B200F52B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DEC84F53F78CD6110E6EE5E /* Pods-Pocket Contacts Pro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Pocket Contacts Pro/Pocket Contacts Pro.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pocket\\ Contacts\\ Pro/For\\ Testing\\ on\\ Simulator",
+					"$(PROJECT_DIR)/Pocket\\ Contacts\\ Pro/For\\ Testing\\ on\\ Simulator",
+				);
+				INFOPLIST_FILE = "Pocket Contacts Pro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zuooi.Pocket-Contacts-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pocket Contacts Pro/Pocket Contacts Pro-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		18EA730524F599B200F52B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pocket Contacts ProTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zuooi.Pocket-Contacts-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pocket Contacts Pro.app/Pocket Contacts Pro";
+			};
+			name = Debug;
+		};
+		18EA730624F599B200F52B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pocket Contacts ProTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zuooi.Pocket-Contacts-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pocket Contacts Pro.app/Pocket Contacts Pro";
+			};
+			name = Release;
+		};
+		18EA730824F599B200F52B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pocket Contacts ProUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zuooi.Pocket-Contacts-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pocket Contacts Pro";
+			};
+			name = Debug;
+		};
+		18EA730924F599B200F52B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pocket Contacts ProUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zuooi.Pocket-Contacts-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pocket Contacts Pro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18EA72D224F599AE00F52B99 /* Build configuration list for PBXProject "Pocket Contacts Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EA72FF24F599B200F52B99 /* Debug */,
+				18EA730024F599B200F52B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EA730124F599B200F52B99 /* Build configuration list for PBXNativeTarget "Pocket Contacts Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EA730224F599B200F52B99 /* Debug */,
+				18EA730324F599B200F52B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EA730424F599B200F52B99 /* Build configuration list for PBXNativeTarget "Pocket Contacts ProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EA730524F599B200F52B99 /* Debug */,
+				18EA730624F599B200F52B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EA730724F599B200F52B99 /* Build configuration list for PBXNativeTarget "Pocket Contacts ProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EA730824F599B200F52B99 /* Debug */,
+				18EA730924F599B200F52B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18EA72CF24F599AE00F52B99 /* Project object */;
+}
