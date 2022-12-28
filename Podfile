@@ -5,7 +5,7 @@ target 'Pocket Contacts Pro' do
     use_frameworks!
 
     # Pods for
-    pod 'JPush'
+#    pod 'JPush'
 
   end
 
