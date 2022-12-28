@@ -23,9 +23,9 @@ Just download this repo and enjoy!
 You can use the source code in your app.
 # APP Screens
 
-![Simulator Screen Shot - iPhone 14 Pro - 2022-12-28 at 08 11 58](https://user-images.githubusercontent.com/25474407/209751727-ea71b71a-e965-406e-b930-7955dfa5672c.png)
-
-![Simulator Screen Shot - iPhone 14 Pro - 2022-12-28 at 08 12 02](https://user-images.githubusercontent.com/25474407/209751738-f42fd3f6-e639-4f2f-8a15-868adc967f77.png)![Simulator Screen Shot - iPhone 14 Pro - 2022-12-28 at 08 12 10](https://user-images.githubusercontent.com/25474407/209751739-764bff0f-5d4c-4ce1-aedc-a47796926b0c.png)
+![Simulator Screen Shot - iPhone 14 Pro - 2022-12-28 at 08 12 02](https://user-images.githubusercontent.com/25474407/209751976-7c1a4558-2990-43d3-aeaa-c6593238f4e7.png)
+![Simulator Screen Shot - iPhone 14 Pro - 2022-12-28 at 08 11 58](https://user-images.githubusercontent.com/25474407/209751971-3293af79-97c1-45a6-bf09-9c3cd6a50228.png)
+![Simulator Screen Shot - iPhone 14 Pro - 2022-12-28 at 08 12 10](https://user-images.githubusercontent.com/25474407/209751739-764bff0f-5d4c-4ce1-aedc-a47796926b0c.png)
 ![Simulator Screen Shot - iPhone 14 Pro - 2022-12-28 at 08 12 18](https://user-images.githubusercontent.com/25474407/209751740-59f96014-f5fa-4106-b752-b7fbfdf68467.png)
 ![Simulator Screen Shot - iPhone 14 Pro - 2022-12-28 at 08 12 27](https://user-images.githubusercontent.com/25474407/209751745-33abe749-5e67-4951-b2a1-51640e44e47b.png)
 
