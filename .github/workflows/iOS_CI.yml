@@ -1,0 +1,23 @@
+name: iOS CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: macOS-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: sudo xcode-select -switch /Applications/Xcode.app
+
+      - name: Build
+        run: xcodebuild clean build -project "Pocket Contacts Pro.xcodeproj" -scheme YourScheme -destination 'platform=iOS Simulator,name=iPhone 15'
+
+      - name: Run tests
+        run: xcodebuild test -project "Pocket Contacts Pro.xcodeproj" -scheme YourScheme -destination 'platform=iOS Simulator,name=iPhone 15'
