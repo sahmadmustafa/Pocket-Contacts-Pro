@@ -1,0 +1,46 @@
+name: iOS Build and Artifact
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build_ios:
+    runs-on: macos-latest 
+
+    steps:
+     
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+     
+      - name: Select Xcode Version
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: '15.0' 
+
+    
+      - name: Install Pods
+        run: |
+          if [ -f "Podfile" ]; then
+            pod install
+          fi
+
+     
+      - name: Build iOS App
+        run: |
+          xcodebuild -scheme "YourSchemeName" \
+                     -sdk iphonesimulator \
+                     -configuration Release \
+                     -derivedDataPath build \
+                     clean build
+       
+
+     
+      - name: Upload iOS Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-ipa-artifact
+          path: build/Build/Products/Release-iphonesimulator/ # Build output path
